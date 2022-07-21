@@ -1,0 +1,35 @@
+package MyApp;
+
+import java.util.Scanner;
+
+public class menu {
+
+	public static void menu1() {
+		
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("---Menu--- ");
+		System.out.println("1  -  Simple Interest Calculator");
+		System.out.println("2  -  Prime Number");
+		System.out.println("3  -  Divisable by 5");
+		System.out.println("----------");
+		System.out.println("  ");
+		System.out.println("Please enter menu number: ");
+		int ly=scanner.nextInt();
+
+
+		int menuOption = ly;
+		
+		switch(menuOption) {
+		case 1:
+			System.out.println("goto 1");
+			break;
+		case 2:
+			System.out.println("go to 3");
+			break;
+			
+		}
+	}
+	
+	
+	
+}

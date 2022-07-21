@@ -1,0 +1,31 @@
+package org;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class testlogger {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Logger LOGGER = LogManager.getLogger();
+		LOGGER.info("adding info logs");
+		//LOGGER.catching(Exception);
+		
+		
+		try
+		{
+			int z=10/0;
+		}
+		catch (Exception e) {
+		    LOGGER.debug(e.getStackTrace());
+		    LOGGER.error(e.getMessage());
+		}
+		
+	
+		
+		
+		
+	}
+
+}

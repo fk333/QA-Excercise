@@ -1,0 +1,10 @@
+package testingPrime;
+
+public class primetest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

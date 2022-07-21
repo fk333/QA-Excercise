@@ -1,0 +1,6 @@
+20220719 10:47:46 INFO  [main] org.testlogger testlogger.java14 - adding info logs
+20220719 10:47:46 DEBUG [main] org.testlogger testlogger.java24 - [Ljava.lang.StackTraceElement;@74294adb
+20220719 10:47:46 ERROR [main] org.testlogger testlogger.java25 - / by zero
+20220719 10:49:38 INFO  [main] org.testlogger testlogger.java14 - adding info logs
+20220719 10:49:38 DEBUG [main] org.testlogger testlogger.java24 - [Ljava.lang.StackTraceElement;@74294adb
+20220719 10:49:38 ERROR [main] org.testlogger testlogger.java25 - / by zero

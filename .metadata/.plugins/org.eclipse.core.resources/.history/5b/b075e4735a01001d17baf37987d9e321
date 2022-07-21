@@ -1,0 +1,47 @@
+package testingPrime;
+
+import java.util.Scanner;
+
+public class primetest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		System.out.println("==Welcome to the Prime Number Finder==");
+		System.out.println(" ");
+		System.out.println("Enter a number: ");
+		
+		Scanner scanner=new Scanner(System.in);
+		int x=scanner.nextInt();
+		int i=2;
+		
+		while(i<x) {
+		
+		if(i>x) {
+		
+			System.out.println(x+" is a Prime Number.");
+			
+			}else {
+				
+				if (x%i==0)
+				{
+					System.out.println(x+" is NOT a Prime Number");
+					break;
+					
+				} else {
+					i=i+1;
+				}
+				
+				
+			}
+		
+		}
+		
+		//put in loop so that it does modus 2 and then modus 3
+		
+		}
+	}
+
+

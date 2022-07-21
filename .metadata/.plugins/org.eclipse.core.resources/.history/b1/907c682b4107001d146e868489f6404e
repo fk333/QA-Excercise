@@ -1,0 +1,12 @@
+package org;
+
+public class LogException {
+	public void	divByZero () {
+		System.out.println(10/0);
+			}
+	
+	public void arrayBound()
+	{
+		
+	}
+}

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Feroze
+Build-Jdk: 17.0.3
+Main-Class: org.qa.helloWorld
+Created-By: Maven Integration for Eclipse
+

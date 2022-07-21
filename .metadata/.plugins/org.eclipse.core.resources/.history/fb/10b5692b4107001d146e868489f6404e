@@ -1,0 +1,26 @@
+package org;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LogException le=new LogException();
+		Logger log=Logger.getLogger("");
+		
+		try {
+		le.divByZero();
+		}catch(Exception e) {
+			log.log(Level.WARNING,"can not divid by zero");
+		}
+		try {
+		le.arrayBound();
+		}catch(Exception e)
+		{
+			log.log(Level.INFO,"Array index out of bounds");
+		}
+	}
+
+}

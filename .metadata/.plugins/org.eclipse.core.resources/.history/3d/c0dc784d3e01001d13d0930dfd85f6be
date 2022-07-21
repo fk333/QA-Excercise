@@ -1,0 +1,46 @@
+package MyApp;
+
+import java.util.Scanner;
+
+public class menu {
+
+	public static void menu1() {
+		
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("      ---Menu--- ");
+		System.out.println("1  -  Simple Interest Calculator");
+		System.out.println("2  -  Prime Number");
+		System.out.println("3  -  Divisable by 5");
+		System.out.println("      ----------");
+		System.out.println("  ");
+		System.out.println("Please enter menu number: ");
+		int ly=scanner.nextInt();
+
+
+		int menuOption = ly;
+		
+		switch(menuOption) {
+		case 1:
+			System.out.println(" ");
+			System.out.println("Option 1");
+			System.out.println(" ");
+			simpleinterest.siCalc(null);
+			break;
+		case 2:
+			System.out.println(" ");
+			System.out.println("Option 2");
+			System.out.println(" ");
+			primenumbers.prime();
+			break;
+		case 3:
+			System.out.println(" ");
+			System.out.println("Option 3");
+			System.out.println(" ");
+			dividbyfive.div5();
+			break;
+		}
+	}
+	
+	
+	
+}
