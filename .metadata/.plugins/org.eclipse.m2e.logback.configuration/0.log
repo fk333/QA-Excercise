@@ -1427,3 +1427,15 @@
 2022-07-21 08:46:54,419 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-07-21 08:46:54,420 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-07-21 08:46:54,421 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-21 14:30:37,214 [Worker-32: Creating project "WillGitUploadThis"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:WillGitUploadThis:0.0.1-SNAPSHOT @ C:\Users\Feroze\Java_Basic\WillGitUploadThis\pom.xml.
+2022-07-21 14:30:37,384 [Worker-32: Creating project "WillGitUploadThis"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WillGitUploadThis/src/main/java
+2022-07-21 14:30:37,386 [Worker-32: Creating project "WillGitUploadThis"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WillGitUploadThis/src/main/resources
+2022-07-21 14:30:37,386 [Worker-32: Creating project "WillGitUploadThis"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WillGitUploadThis/src/test/java
+2022-07-21 14:30:37,386 [Worker-32: Creating project "WillGitUploadThis"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WillGitUploadThis/src/test/resources
+2022-07-21 14:30:37,950 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-21 14:30:37,952 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-21 14:30:37,953 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-21 14:30:37,954 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-21 14:31:11,784 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-21 14:31:11,789 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-21 14:31:11,791 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
